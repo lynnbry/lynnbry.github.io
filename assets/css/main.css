@@ -65,6 +65,24 @@ mark.blue {
 	background:none;
 }
 
+.column2 {
+  float: left;
+  width: 50%;
+}
+.left {
+  width: 25%;
+}
+
+.right {
+  width: 75%;
+}
+
+.row: after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 input::-moz-focus-inner {
 	border: 0;
 	padding: 0;
