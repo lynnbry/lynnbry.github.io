@@ -229,13 +229,13 @@ input, select, textarea {
 			width: -webkit-max-content;
 			width: -ms-max-content;
 			width: max-content;
-			padding-bottom: 0rem;
+			padding-bottom: 0.0rem;
 			margin: 0 0 2rem 0;
 		}
 
 	h1 {
 		font-size: 2.25rem;
-		line-height: 1;
+		line-height: 1.05;
 		letter-spacing: 0.5rem;
 	}
 
