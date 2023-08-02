@@ -65,6 +65,11 @@ mark.blue {
 	background:none;
 }
 
+mark.purple{
+	color:#6727cf;
+	background:none;
+}
+
 .column {
   float: left;
   padding: 10px;
