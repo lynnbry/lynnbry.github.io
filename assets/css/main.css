@@ -81,11 +81,11 @@ mark.ltpurple{
 }
 
 .left {
-  width: 55%;
+  width: 40%;
 }
 
 .right {
-  width: 45%;
+  width: 60%;
 }
 
 /* Clear floats after the columns */
