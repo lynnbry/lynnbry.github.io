@@ -1,5 +1,26 @@
 <!DOCTYPE HTML>
 <html>
+.column {
+  float: left;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.left {
+  width: 25%;
+}
+
+.right {
+  width: 75%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
 	<head>
 		<title>Bryan K. Lynn</title>
 		<meta charset="utf-8" />
