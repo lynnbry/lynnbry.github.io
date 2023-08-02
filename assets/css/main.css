@@ -75,11 +75,6 @@ mark.ltpurple{
 	background:none;
 }
 
-.container {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-}
 .column {
   float: left;
   padding: 10px;
