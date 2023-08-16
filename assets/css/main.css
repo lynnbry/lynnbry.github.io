@@ -213,7 +213,6 @@ input, select, textarea {
 		color: #ffffff;
 		font-weight: 600;
 		line-height: 1.5;
-		margin: 0 0 0 0;
 		text-transform: uppercase;
 		letter-spacing: 0.2rem;
 	}
@@ -223,7 +222,7 @@ input, select, textarea {
 			text-decoration: none;
 		}
 
-		h1.major, h2.major, h3.major, h4.major, h5.major, h6.major {
+		h1.major{
 			border-bottom: solid 1px #ffffff;
 			width: -moz-max-content;
 			width: -webkit-max-content;
@@ -231,6 +230,15 @@ input, select, textarea {
 			width: max-content;
 			padding-bottom: 0.0rem;
 			margin: 0 0 0.2rem 0;
+		}
+		h2.major, h3.major, h4.major, h5.major, h6.major {
+			border-bottom: solid 1px #ffffff;
+			width: -moz-max-content;
+			width: -webkit-max-content;
+			width: -ms-max-content;
+			width: max-content;
+			padding-bottom: 0.0rem;
+			margin: 1 0 0.2rem 0;
 		}
 
 	h1 {
@@ -243,12 +251,10 @@ input, select, textarea {
 		font-size: 1.5rem;
 		line-height: 1;
 		letter-spacing: 0.5rem;
-		margin: 2rem 0 0 0;
 	}
 
 	h3 {
 		font-size: 1rem;
-		margin: 2rem 0 0 0;
 	}
 
 	h4 {
