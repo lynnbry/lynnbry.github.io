@@ -208,7 +208,6 @@ input, select, textarea {
 	p {
 		margin: 0 0 2rem 0;
 	}
-	
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #ffffff;
@@ -770,12 +769,8 @@ input, select, textarea {
 
 	ul {
 		list-style: disc;
-		<! --
 		margin: 0 0 2rem 0;
 		padding-left: 1em;
-		-->
-		text-align: center;
-  		list-style-position: inside;
 	}
 
 		ul li {
