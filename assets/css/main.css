@@ -209,10 +209,6 @@ input, select, textarea {
 		margin: 0 0 2rem 0;
 	}
 	
-	p, p + .nospace{
-		  margin: 0;
-		  padding: 0;
-	}
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #ffffff;
@@ -774,8 +770,12 @@ input, select, textarea {
 
 	ul {
 		list-style: disc;
+		<! --
 		margin: 0 0 2rem 0;
 		padding-left: 1em;
+		-->
+		text-align: center;
+  		list-style-position: inside;
 	}
 
 		ul li {
