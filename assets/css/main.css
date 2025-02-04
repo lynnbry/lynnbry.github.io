@@ -644,38 +644,43 @@ input, select, textarea {
 /* Icon */
 
 	.icon {
-		text-decoration: none;
-		border-bottom: none;
-		position: relative;
-	}
-
-		.icon:before {
-			-moz-osx-font-smoothing: grayscale;
-			-webkit-font-smoothing: antialiased;
-			display: inline-block;
-			font-style: normal;
-			font-variant: normal;
-			text-rendering: auto;
-			line-height: 1;
-			text-transform: none !important;
-			font-family: 'Font Awesome 5 Free';
-			font-weight: 400;
+  		text-decoration: none;
+  		border-bottom: none;
+ 		 position: relative;
+  		font-size: 2rem; /* Ensure the size is consistent with other icons */
 		}
 
-		.icon > .label {
-			display: none;
+	.icon:before {
+		  -moz-osx-font-smoothing: grayscale;
+		  -webkit-font-smoothing: antialiased;
+		  display: inline-block;
+		  font-style: normal;
+		  font-variant: normal;
+		  text-rendering: auto;
+		  line-height: 1;
+		  text-transform: none !important;
+		  font-family: 'Font Awesome 5 Free';
+		  font-weight: 400;
+		  content: ''; /* Clear any content */
 		}
 
-		.icon:before {
-			line-height: inherit;
+	.icon.brands:before {
+		  font-family: 'Font Awesome 5 Brands';
 		}
 
-		.icon.solid:before {
-			font-weight: 900;
+	.icon img {
+		  width: 1em; /* Scale with font size */
+		  height: 1em; /* Maintain aspect ratio */
+		  vertical-align: middle; /* Align with other icons */
 		}
 
-		.icon.brands:before {
-			font-family: 'Font Awesome 5 Brands';
+	.icon img {
+		  display: inline-block; /* Ensure image appears inline like the icon */
+		}
+
+	.icon img[src*="bsky"] {
+		  width: 2rem; /* Scale the image to match other icons */
+		  height: 2rem; /* Adjust as needed */
 		}
 
 /* Image */
