@@ -738,13 +738,14 @@ input, select, textarea {
 			}
 
 		.image.main {
-			display: block;
-			margin: 0 auto 0 auto;
+			display: inline-block;
+			margin: 0.5rem 0 0 0;
 			width: 100%;
+			position: relative
 		}
 
 			.image.main img {
-				width: 50%;
+				width: 100%;
 			}
 
 		@media screen and (max-width: 736px) {
