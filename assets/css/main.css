@@ -719,20 +719,6 @@ input, select, textarea {
 		.icon.brands:before {
 			font-family: 'Font Awesome 5 Brands';
 		}
-		.icon img {
-			  width: 1em; /* Scale with font size */
-			  height: 1em; /* Maintain aspect ratio */
-			  vertical-align: middle; /* Align with other icons */
-		}
-		
-		.icon img {
-			  display: inline-block; /* Ensure image appears inline like the icon */
-		}
-		
-		.icon img[src*="bsky"] {
-			  width: 2rem; /* Scale the image to match other icons */
-			  height: 2rem; /* Adjust as needed */
-		}
 
 /* List */
 
