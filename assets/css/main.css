@@ -740,7 +740,7 @@ input, select, textarea {
 		.image.main {
 			display: block;
 			margin: 0.5rem auto 0 auto;
-			width: 80%;
+			width: 50%;
 		}
 
 			.image.main img {
