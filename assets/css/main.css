@@ -740,11 +740,11 @@ input, select, textarea {
 		.image.main {
 			display: block;
 			margin: 0 auto 0 auto;
-			width: 75%;
+			width: 50%;
 		}
 
 			.image.main img {
-				width: 100%;
+				width: 50%;
 			}
 
 		@media screen and (max-width: 736px) {
