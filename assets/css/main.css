@@ -739,7 +739,7 @@ input, select, textarea {
 
 		.image.main {
 			display: block;
-			margin: 0 auto 0 auto;
+			margin: 0.5rem 0 0 0;
 			width: 100%;
 		}
 
