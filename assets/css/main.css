@@ -738,17 +738,16 @@ input, select, textarea {
 			}
 
 		.image.main {
-			display: inline-block;
-			margin: 0.5rem 0 2rem 0;
+			display: block;
+			margin: 0 auto;
 			width: 100%;
-			position: relative
 		}
 
 			.image.main img {
 				width: 100%;
 			}
 
-		@media screen and (max-width: 736px) {
+		/*@media screen and (max-width: 736px) {
 
 			.image.main {
 				margin: 2rem 0;
@@ -762,7 +761,7 @@ input, select, textarea {
 				margin: 1.5rem 0;
 			}
 
-		}
+		}*/
 
 /* List */
 
